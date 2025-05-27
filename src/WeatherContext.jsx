@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const WeatherContext = createContext();
 
 export function WeatherProvider({ children }) {
-  const baseUrl = "http://api.weatherapi.com/v1/";
+  const baseUrl = "https://api.weatherapi.com/v1/";
   const backgroundThemes = {
     1000: "bg-gradient-to-b from-yellow-200 to-blue-200", // Sunny / Clear
     1003: "bg-gradient-to-b from-blue-100 to-gray-200", // Partly Cloudy
