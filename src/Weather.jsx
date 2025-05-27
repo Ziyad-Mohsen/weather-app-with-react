@@ -1,4 +1,3 @@
-import React from "react";
 import { LuWind } from "react-icons/lu";
 import { MdOutlineWaterDrop } from "react-icons/md";
 

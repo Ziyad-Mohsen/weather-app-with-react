@@ -4,7 +4,7 @@ import { useWeather } from "./WeatherContext";
 import Loading from "./Loading";
 import CitySelect from "./CitySelect";
 import Forecast from "./Forecast";
-import Weather from "./weather";
+import Weather from "./Weather";
 
 export default function WeatherDisplay() {
   const { forecast, fetching, fetchWeather } = useWeather();
